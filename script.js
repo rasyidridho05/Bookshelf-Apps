@@ -1,13 +1,6 @@
 (() => {
     let e = [];
 
-    function s(t) {
-        const submit = document.getElementById('bookSubmit');
-        submit.addEventListener('click', function() {
-            alert('Tombol telah diklik!');
-        });
-    }
-
     function t(t) {
         t.preventDefault();
         const n = document.querySelector("#inputBookTitle"),
